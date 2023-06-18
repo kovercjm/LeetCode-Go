@@ -1,5 +1,7 @@
 package main
 
+import . "github.com/kovercjm/leetcode-go/data_structure"
+
 func removeNthFromEnd(head *ListNode, n int) *ListNode {
 	dummyHead := &ListNode{Next: head}
 	p, q := dummyHead, head
