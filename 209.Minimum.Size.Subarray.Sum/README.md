@@ -25,11 +25,10 @@ Input: target = 11, nums = [1,1,1,1,1,1,1,1]
 Output: 0
 ```
 
-Constraints:
+**Constraints**:
 
 - `1 <= target <= 109`
 - `1 <= nums.length <= 105`
 - `1 <= nums[i] <= 104`
-
 
 **Follow up**: If you have figured out the `O(n)` solution, try coding another solution of which the time complexity is `O(n log(n))`.

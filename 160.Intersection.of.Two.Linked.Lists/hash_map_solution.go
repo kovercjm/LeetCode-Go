@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	. "github.com/kovercjm/leetcode-go/data_structure"
 )
 
@@ -20,26 +19,4 @@ func getIntersectionNode(headA, headB *ListNode) *ListNode {
 		}
 	}
 	return p
-}
-
-func main() {
-	//common := &ListNode{
-	//	Val: 2,
-	//	Next: &ListNode{
-	//		Val:  4,
-	//		Next: nil,
-	//	},
-	//}
-	headA := &ListNode{
-		Val: 1,
-		Next: &ListNode{
-			Val:  9,
-			Next: nil,
-		},
-	}
-	headB := &ListNode{
-		Val:  3,
-		Next: nil,
-	}
-	fmt.Println(getIntersectionNode(headA, headB).Val)
 }

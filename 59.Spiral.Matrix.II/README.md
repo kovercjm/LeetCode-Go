@@ -18,6 +18,6 @@ Input: n = 1
 Output: [[1]]
 ```
 
-Constraints:
+**Constraints**:
 
 - `1 <= n <= 20`

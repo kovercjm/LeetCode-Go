@@ -23,7 +23,7 @@ Input: head = [1]
 Output: [1]
 ```
 
-Constraints:
+**Constraints**:
 
 - The number of nodes in the list is in the range `[0, 100]`.
 - `0 <= Node.val <= 100`
